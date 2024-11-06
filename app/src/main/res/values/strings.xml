@@ -4,9 +4,10 @@
     <string name="menu_2">Historico</string>
     <string name="menu_3">Mapas</string>
     <string name="menu_4">Ayuda</string>
-    <string name="tv1">Localizacion GPS</string>
+    <string name="tv1">LOCACLIZACION GPS</string>
     <string name="bt1">Actualizar localización</string>
     <string name="tv2">Latitud</string>
     <string name="tv4">Longitud</string>
+    <string name="history">HISTÓRICO DE DATOS</string>
 
 </resources>

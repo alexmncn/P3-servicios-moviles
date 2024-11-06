@@ -52,10 +52,13 @@ public class Localizacion extends AppCompatActivity {
 
     public void saveLocation (String latitud, String longitud) {
         String filename = "datos.txt";
-        String data = latitud + "," + longitud + ";";
+        String data = latitud + ", " + longitud + "; ";
 
-        try (FileOutputStream fos = openFileOutput(filename, MODE_PRIVATE)) {
+        try (FileOutputStream fos = openFileOutput(filename, MODE_APPEND)) {
             fos.write(data.getBytes());
+
+            String fullPath = getFilesDir() + "/" + filename;
+            Log.d("saveLocation", "Archivo guardado en: " + fullPath);
         } catch (IOException e) {
             Log.e(e.getMessage(), "Error al guardar el archivo");
         }
