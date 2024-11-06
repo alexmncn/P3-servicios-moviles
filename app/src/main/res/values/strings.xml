@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Practica3</string>
+    <string name="menu_1">Localizacion GPS</string>
+    <string name="menu_2">Historico</string>
+    <string name="menu_3">Mapas</string>
+    <string name="menu_4">Ayuda</string>
+    <string name="tv1">Localizacion GPS</string>
+    <string name="bt1">Actualizar localización</string>
+    <string name="tv2">Latitud</string>
+    <string name="tv4">Longitud</string>
+
+</resources>
