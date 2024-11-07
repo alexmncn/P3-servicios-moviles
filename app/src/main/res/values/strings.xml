@@ -9,5 +9,6 @@
     <string name="tv2">Latitud</string>
     <string name="tv4">Longitud</string>
     <string name="history">HISTÓRICO DE DATOS</string>
+    <string name="title_activity_mapa">Mapa</string>
 
 </resources>
